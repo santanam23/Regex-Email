@@ -26,27 +26,40 @@ The following are regex components used in the code:
 *
 ### Anchors
 What is an anchor? Anchors belong to the family of regex tokens that don't match any characters, but that assert something about the string or the matching process. The first anchor that we see is "^" at the beginning of the code.
+Anchors in code:
+"^" It shows the beginning of the string
+"$" It shows the end of the string
+
+
 ### Quantifiers
+What are qualifiers? Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found. 
+Qualifier in code: "{2,6}"  
 
 ### OR Operator
-
+OR operator allows you to say one pattern or another one is going to be valid for matching.
 ### Character Classes
+Meta Characters: ".[{()\^$+"
+Single Characers: "\d" means any digit (0-9), "." means any character except new line
+Literal Characters: "@", "\." which is used to create an email address
 
 ### Flags
+A flag changes the defalt search behavior of a regular expression. For example: "i, g, s, m, y, u" which we do not have in our snippet. 
 
 ### Grouping and Capturing
-
+Grouping basically just groups up a sequence of regulatory expression tokens into one unit. For example (a-z) is used three times in the code above.
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
 
 ### Boundaries
+Boundaries are places between characters. For example: "\b" (a word boundary) or "\B" (non-word boundary). We do not have word boundaries in the snippet
 
 ### Back-references
+Backreference identifies a repeat character or substring. We do not have this in our code sample.
 
 ### Look-ahead and Look-behind
-https://zone.ni.com/reference/en-XX/help/371714F-01/nirghelp/regular_expressions_components/
-https://regexr.com/
+Also known as assertions! Are patterns to be looked beyond or before a match. We do not have this in the code example.
+
 ## Author
 
 Miriam Santana is a future web developer who focuses on making sure the client is always satisfied with the product at hand. Feel free to checkout more samples of her work at https://github.com/santanam23 or email her at miriam.steph.santana@gmail.com
